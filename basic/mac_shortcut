@@ -1,0 +1,38 @@
+Move cursor
+foward a character: ← 
+back a character: →
+line head: command ＋　←
+line end: command ＋ →
+forward a word: option + ←
+back a word: option + →
+next line: ↑
+previous line: ↓
+sentence head: command + ↑
+sentence end: command + ↓
+
+Delete
+delete left a character: delete
+delete left line: command + delete
+delete left a word: option + delete
+delete right a character: fn + delete
+delete right line: fn + command + delete
+delete right a word: fn + option + delete
+
+Select
+shift + Move
+
+Move line
+move up a line: option + ↑
+move down a line: option + ↓
+
+Copy line
+copy a line to top: option + shift + ↑
+copy a line to below: option + shift + ↓
+
+
+
+
+Screen
+screen out: command + _
+screen in: command + shift + + 
+
