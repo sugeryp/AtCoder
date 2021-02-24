@@ -30,9 +30,3 @@ print(t)
 
 new_tuple = (1, 2, 3) + (4, 5) + (6,)
 print(new_tuple)
-
-com.microsoft.VSCode.plist
-com.microsoft.VSCodeExploration.plist
-com.microsoft.VSCodeInsiders.plist
-
-defaults write com.microsoft.VSCodeExploration ApplePressAndHoldEnabled -bool false

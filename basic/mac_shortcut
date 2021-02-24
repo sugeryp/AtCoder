@@ -36,3 +36,4 @@ Screen
 screen out: command + _
 screen in: command + shift + + 
 
+defaults write com.microsoft.VSCodeExploration ApplePressAndHoldEnabled -bool false
