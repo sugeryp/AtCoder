@@ -30,3 +30,22 @@ print(t)
 
 new_tuple = (1, 2, 3) + (4, 5) + (6,)
 print(new_tuple)
+
+
+num_tuple = (10, 20)
+print(num_tuple)
+
+x, y = num_tuple
+print(x, y)
+print(x)
+print(y)
+
+x, y =  10, 20
+print(x, y)
+print(x)
+print(y)
+
+x, y = y, x
+print(x, y)
+
+# sample quiz
