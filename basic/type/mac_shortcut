@@ -29,7 +29,9 @@ Copy line
 copy a line to top: option + shift + ↑
 copy a line to below: option + shift + ↓
 
-
+Comment out
+comment out current line: command + (k → c)
+comment out rerease: command + /
 
 
 Screen
