@@ -46,3 +46,20 @@ del d
 
 if 'd' not in locals():
     print('not exist')
+
+d = {'x': 10, 'y': 20}
+d2 = d
+d2['x'] = 100
+print(d2)
+print(d)
+
+d = {'x': 10, 'y': 20}
+d2 = d.copy()
+d2['x'] = 100
+print(d2)
+print(d)
+
+
+# sample
+# item: value
+# dictionaly uses hashtable then to search value fastly than list 
