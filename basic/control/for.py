@@ -48,7 +48,7 @@ for _ in range(10):
 print('#########################################')
 i = 0
 for fruit in ['apple', 'banana', 'orange']:
-    print(i, fruit)    
+    print(i, fruit)
     i += 1
 
 print('#########################################')
