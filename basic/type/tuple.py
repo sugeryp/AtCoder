@@ -40,7 +40,7 @@ print(x, y)
 print(x)
 print(y)
 
-x, y =  10, 20
+x, y = 10, 20
 print(x, y)
 print(x)
 print(y)

@@ -5,13 +5,15 @@ line2
 line3
 """)
 print('###################################################')
-print('###################################################')
+
+
 print("""\
 line1
 line2
 line3\
 """)
 print('###################################################')
+
 
 s = ('aaaaaaaaaaaaaaaaaaaaaaaaaaa'
      'bbbbbbbbbbbbbbbbbbbbbbbbbbb')
@@ -25,13 +27,9 @@ path2 = (r'C:\name\name')
 
 print(path)
 print(path2)
-
-
-
-
-
-
 print('\nslice##############################################')
+
+
 word = 'python'
 print(word[0])
 print(word[1])
@@ -46,13 +44,9 @@ print(word)
 print(word[:])
 n = len(word)
 print(n)
-print('###################################################\n')
+print('###################################################')
 
 
-
-
-
-print('\nmethod##############################################')
 s = 'My name is Mike. Hi Mike'
 print(s)
 is_start = s.startswith('My')
@@ -71,10 +65,6 @@ print(s.title())
 print(s.upper())
 print(s.lower())
 print(s.replace('Mike', 'Nancy'))
-
-print('#####################################################\n')
-
-
 print('format#################################################')
 
 print('My name is {} {}'.format('Akihiro', 'Kondo'))
@@ -85,11 +75,10 @@ print('{} {} {}'.format(1, 2, 3))
 print(str(1))
 
 
-l = [1, 20, 4, 50, 2, 1, 2]
-l = [1, 20, 4, 50, 2, 1, 2]
+li = [1, 20, 4, 50, 2, 1, 2]
+li = [1, 20, 4, 50, 2, 1, 2]
 
 print(f"""\
-{l[1]}
-{l[-1]}\
+{li[1]}
+{li[-1]}\
 """)
-print('###################################################')
