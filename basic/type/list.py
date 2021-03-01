@@ -16,7 +16,6 @@ print(f"""\
 {li[2:]}
 {li[:]}
 {len(li)}
-{list('abcdefg')}
 
 {n}
 {n[::2]}
@@ -28,6 +27,10 @@ print(f"""\
 {c[0][1]}
 \
 """)
+
+# split a character
+print(list('sdfdsfege'))
+
 print('###################################################')
 
 print('###################################################')
@@ -136,3 +139,29 @@ print('x=', x)
 print('y=', y)
 
 # sample taxi
+
+print("##################################################")
+# list comprehension
+t = (1, 2, 3, 4, 5)
+
+r = []
+for i in t:
+    r.append(i)
+
+print(r)
+
+r = [i for i in t]
+print(r)
+
+print("##################################################")
+t = (1, 2, 3, 4, 5)
+
+r = []
+for i in t:
+    if i % 2 == 0:
+        r.append(i)
+
+print(r)
+
+r = [i for i in t if i % 2 == 0]
+print(r)

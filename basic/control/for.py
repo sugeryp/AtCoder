@@ -25,6 +25,17 @@ else:
     print("I've finished eating")
 
 print('#########################################')
+
+# for break else
+for fruit in ['apple', 'banana', 'orange']:
+    if fruit == 'banana':
+        print('stop eating')
+        break
+    print(fruit)
+else:
+    print("I've ate all")
+
+print('#########################################')
 num_list = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
 for i in num_list:
     print(i)

@@ -62,4 +62,4 @@ print(d)
 
 # sample
 # item: value
-# dictionaly uses hashtable then to search value fastly than list 
+# dictionary uses hashtable then to search value fastly than list
